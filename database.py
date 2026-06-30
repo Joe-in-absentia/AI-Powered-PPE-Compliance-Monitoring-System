@@ -33,7 +33,7 @@ def save_detection(source_type, file_name, violations):
         cursor.execute(""" INSERT INTO violation_details
             (detection_id,violation_type,confidence)
             VALUES(%s,%s,%s)""",
-            ( detection_id,violation,0.0))
+            (detection_id,violation["label"],violation["confidence"]))
 
     conn.commit()
 
