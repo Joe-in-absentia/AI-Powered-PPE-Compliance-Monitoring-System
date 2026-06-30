@@ -103,5 +103,6 @@ System automatically sends email notifications when violations are detected:
 - Safety analytics dashboard for management
 - AI-based decision support system
 
-
+##  conclusion
+Intelliguard delivers an end-to-end AI solution for workplace safety by combining computer vision, cloud computing, and generative AI. It automates PPE violation detection, logging, and reporting while providing an intelligent chatbot interface for insights. This system improves safety compliance, reduces manual monitoring, and enables real-time decision-making in industrial environments.
 
