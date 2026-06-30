@@ -8,7 +8,7 @@ load_dotenv()
 
 def generate_csv():
     conn = get_connection()
-    query = """ SELECTm.timestamp,m.source_type,m.file_name,m.anomaly_status,
+    query = """ SELECT m.timestamp,m.source_type,m.file_name,m.anomaly_status,
                    m.total_violations,v.violation_type,v.confidence
                 FROM detection_metadata m
                 JOIN violation_details v ON m.detection_id = v.detection_id
