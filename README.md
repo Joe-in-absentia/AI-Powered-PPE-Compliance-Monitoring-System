@@ -1,2 +1,150 @@
-# AI-Powered-PPE-Compliance-Monitoring-System
-Intelliguard is an AI-powered PPE monitoring system that detects safety violations in real time using YOLO. It uses Streamlit for UI, AWS S3/RDS for storage and logging, and a LangChain SQL chatbot for querying data, enabling automated workplace safety monitoring, alerts, and reporting.
+# 🛡️ Intelliguard: AI-Powered PPE Compliance Monitoring System
+
+## 📌 Overview
+Intelliguard is an AI-based workplace safety monitoring system designed to detect Personal Protective Equipment (PPE) compliance in real time using computer vision and deep learning. It identifies safety violations from image/video feeds, logs anomalies into AWS cloud database, and provides an intelligent dashboard with secure login and a chatbot for querying safety insights.
+
+## 🎯 Problem Statement
+Industrial and manufacturing environments require strict safety compliance. Manual monitoring is inefficient, inconsistent, and not scalable.
+
+This system automates safety monitoring by:
+- Detecting PPE violations (helmet, gloves, mask, etc.)
+- Processing image/video streams in real time
+- Logging violations into cloud database (AWS RDS)
+- Providing AI-based insights through chatbot interface
+
+## 🚀 Key Features
+- Real-time PPE violation detection using YOLO
+- Face recognition-based secure login system
+- Streamlit interactive dashboard
+- AWS S3 integration for model storage
+- AWS RDS for violation logging
+- LangChain SQL chatbot for natural language queries
+- Email alert automation using SMTP
+- CSV export for violation reports
+- TensorBoard logging for training metrics
+
+## 🧠 Skills Gained
+- Computer Vision with OpenCV & YOLO
+- Object Detection & Model Fine-tuning
+- Face Recognition Authentication
+- Streamlit App Development
+- AWS (S3, RDS) Integration
+- NLP with LLMs & LangChain Agents
+- SQL-based chatbot system
+- SMTP Email Automation
+- TensorBoard Experiment Tracking
+- End-to-end AI system development
+
+## 🏭 Domain
+- Industrial Safety & Compliance
+- Manufacturing Automation
+- AI in Workplace Monitoring
+- Computer Vision + NLP Integration
+
+## ⚙️ System Workflow
+1. Input: Image / Video / Webcam feed
+2. YOLO model detects PPE objects and violations
+3. OpenCV processes frames
+4. Violations stored in AWS RDS
+5. Streamlit dashboard displays results
+6. Email alerts sent automatically
+7. LangChain chatbot allows SQL-based querying
+
+## 🧪 Dataset
+PPE Safety Dataset
+
+Classes:
+['glove', 'goggles', 'helmet', 'mask', 'no-suit', 'no_glove',
+ 'no_goggles', 'no_helmet', 'no_mask', 'no_shoes', 'shoes', 'suit']
+
+Data Details:
+- Industrial worker images with PPE/non-PPE scenarios
+- YOLO format bounding box annotations
+- Train/Validation/Test split applied
+- Preprocessing includes resizing and normalization
+
+## 🏗️ Project Structure
+Intelliguard/
+│
+├── app.py
+├── models/
+│   └── best.pt
+├── detection/
+├── face_auth/
+├── database/
+├── chatbot/
+├── utils/
+├── logs/
+└── requirements.txt
+
+## ☁️ AWS Architecture
+- S3 Bucket → Stores trained YOLO model
+- RDS Database → Stores violation logs and metadata
+
+## 🤖 Chatbot Features
+LangChain SQL agent allows natural language queries such as:
+- "How many helmet violations today?"
+- "Show weekly mask violations"
+- "Which shift has highest violations?"
+
+## 📊 Evaluation Metrics
+- mAP (Mean Average Precision)
+- Precision & Recall
+- Face recognition accuracy
+- Detection latency
+- Chatbot response time
+- Database logging accuracy
+- Streamlit UI performance
+
+## ⚙️ Installation
+git clone https://github.com/your-username/intelliguard.git
+cd intelliguard
+pip install -r requirements.txt
+
+## 🔐 Environment Variables
+AWS_ACCESS_KEY=
+AWS_SECRET_KEY=
+S3_BUCKET_NAME=
+
+RDS_HOST=
+RDS_USER=
+RDS_PASSWORD=
+RDS_DB=
+
+SMTP_EMAIL=
+SMTP_PASSWORD=
+
+## ▶️ Run Application
+streamlit run app.py
+
+## 📧 Email Alerts
+System automatically sends email notifications when violations are detected:
+- Helmet missing
+- Mask missing
+- Safety gear violations
+
+## 📈 Results
+- High-accuracy PPE detection using YOLO
+- Real-time monitoring system
+- Structured violation logging in AWS RDS
+- Secure face-authenticated access
+- AI-powered chatbot for analytics
+- Automated reporting system
+
+## 💼 Business Use Cases
+- Real-time factory safety monitoring
+- Automated compliance auditing
+- Reduction in manual inspection effort
+- Safety analytics dashboard for management
+- AI-based decision support system
+
+## 🔮 Future Improvements
+- Live CCTV integration
+- Mobile application
+- Edge deployment (Jetson Nano)
+- Multi-camera monitoring dashboard
+- Advanced risk scoring system
+
+## 👨‍💻 Author
+S JOE  
+AI/ML Engineer | Computer Vision & GenAI Enthusiast
