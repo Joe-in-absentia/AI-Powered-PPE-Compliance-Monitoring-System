@@ -12,7 +12,7 @@ This system automates safety monitoring by:
 - Logging violations into cloud database (AWS RDS)
 - Providing AI-based insights through chatbot interface
 
-## 🚀 Key Features
+##  Key Features
 - Real-time PPE violation detection using YOLO
 - Face recognition-based secure login system
 - Streamlit interactive dashboard
