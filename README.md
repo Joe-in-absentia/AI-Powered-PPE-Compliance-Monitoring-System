@@ -35,7 +35,7 @@ This system automates safety monitoring by:
 - TensorBoard Experiment Tracking
 - End-to-end AI system development
 
-## 🏭 Domain
+## 🏗️ Domain
 - Industrial Safety & Compliance
 - Manufacturing Automation
 - AI in Workplace Monitoring
@@ -63,25 +63,11 @@ Data Details:
 - Train/Validation/Test split applied
 - Preprocessing includes resizing and normalization
 
-## 🏗️ Project Structure
-Intelliguard/
-│
-├── app.py
-├── models/
-│   └── best.pt
-├── detection/
-├── face_auth/
-├── database/
-├── chatbot/
-├── utils/
-├── logs/
-└── requirements.txt
-
 ## ☁️ AWS Architecture
 - S3 Bucket → Stores trained YOLO model
 - RDS Database → Stores violation logs and metadata
 
-## 🤖 Chatbot Features
+##  Chatbot Features
 LangChain SQL agent allows natural language queries such as:
 - "How many helmet violations today?"
 - "Show weekly mask violations"
