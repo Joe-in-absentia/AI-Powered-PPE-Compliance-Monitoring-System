@@ -3,7 +3,7 @@
 ## 📌 Overview
 Intelliguard is an AI-based workplace safety monitoring system designed to detect Personal Protective Equipment (PPE) compliance in real time using computer vision and deep learning. It identifies safety violations from image/video feeds, logs anomalies into AWS cloud database, and provides an intelligent dashboard with secure login and a chatbot for querying safety insights.
 
-## 🎯 Problem Statement
+##  Problem Statement
 Industrial and manufacturing environments require strict safety compliance. Manual monitoring is inefficient, inconsistent, and not scalable.
 
 This system automates safety monitoring by:
@@ -23,7 +23,7 @@ This system automates safety monitoring by:
 - CSV export for violation reports
 - TensorBoard logging for training metrics
 
-## 🧠 Skills Gained
+##  Skills Gained
 - Computer Vision with OpenCV & YOLO
 - Object Detection & Model Fine-tuning
 - Face Recognition Authentication
@@ -87,7 +87,7 @@ LangChain SQL agent allows natural language queries such as:
 - "Show weekly mask violations"
 - "Which shift has highest violations?"
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 - mAP (Mean Average Precision)
 - Precision & Recall
 - Face recognition accuracy
@@ -96,34 +96,13 @@ LangChain SQL agent allows natural language queries such as:
 - Database logging accuracy
 - Streamlit UI performance
 
-## ⚙️ Installation
-git clone https://github.com/your-username/intelliguard.git
-cd intelliguard
-pip install -r requirements.txt
-
-## 🔐 Environment Variables
-AWS_ACCESS_KEY=
-AWS_SECRET_KEY=
-S3_BUCKET_NAME=
-
-RDS_HOST=
-RDS_USER=
-RDS_PASSWORD=
-RDS_DB=
-
-SMTP_EMAIL=
-SMTP_PASSWORD=
-
-## ▶️ Run Application
-streamlit run app.py
-
-## 📧 Email Alerts
+##  Email Alerts
 System automatically sends email notifications when violations are detected:
 - Helmet missing
 - Mask missing
 - Safety gear violations
 
-## 📈 Results
+##  Results
 - High-accuracy PPE detection using YOLO
 - Real-time monitoring system
 - Structured violation logging in AWS RDS
@@ -131,20 +110,12 @@ System automatically sends email notifications when violations are detected:
 - AI-powered chatbot for analytics
 - Automated reporting system
 
-## 💼 Business Use Cases
+##  Business Use Cases
 - Real-time factory safety monitoring
 - Automated compliance auditing
 - Reduction in manual inspection effort
 - Safety analytics dashboard for management
 - AI-based decision support system
 
-## 🔮 Future Improvements
-- Live CCTV integration
-- Mobile application
-- Edge deployment (Jetson Nano)
-- Multi-camera monitoring dashboard
-- Advanced risk scoring system
 
-## 👨‍💻 Author
-S JOE  
-AI/ML Engineer | Computer Vision & GenAI Enthusiast
+
