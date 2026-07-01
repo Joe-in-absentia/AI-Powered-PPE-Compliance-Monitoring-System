@@ -174,7 +174,7 @@ Examples:
 
 ---
 
-#  Application Screenshots
+##  Application Screenshots
 
 ## 🔐 Secure Login Page
 
