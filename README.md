@@ -45,7 +45,7 @@ IntelliGuard automates workplace safety monitoring by:
 
 ---
 
-#  Tech Stack
+##  Tech Stack
 
 ## Artificial Intelligence
 - YOLO Object Detection
@@ -79,7 +79,7 @@ IntelliGuard automates workplace safety monitoring by:
 
 ---
 
-# 🎯 Skills Gained
+## 🎯 Skills Gained
 
 - Computer Vision with OpenCV & YOLO
 - Object Detection and Model Fine-Tuning
@@ -94,7 +94,7 @@ IntelliGuard automates workplace safety monitoring by:
 
 ---
 
-# 🏗️ Domain
+## 🏗️ Domain
 
 - Industrial Safety & Compliance
 - Manufacturing Automation
