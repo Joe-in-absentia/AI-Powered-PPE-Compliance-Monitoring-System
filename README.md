@@ -132,7 +132,7 @@ Used for:
 
 ---
 
-#  Chatbot Features
+##  Chatbot Features
 
 IntelliGuard includes an AI-powered SQL chatbot using LangChain and Gemini.
 
@@ -147,7 +147,7 @@ Example queries:
 
 ---
 
-#  Evaluation Metrics
+##  Evaluation Metrics
 
 The system performance is evaluated using:
 
@@ -161,7 +161,7 @@ The system performance is evaluated using:
 
 ---
 
-#  Email Alerts
+##  Email Alerts
 
 The system automatically generates email notifications when safety violations are detected.
 
@@ -210,7 +210,7 @@ Real-time PPE monitoring using YOLO detection.
 
 ---
 
-#  Results
+##  Results
 
 - Accurate PPE violation detection using YOLO
 - Real-time workplace safety monitoring
@@ -222,7 +222,7 @@ Real-time PPE monitoring using YOLO detection.
 
 ---
 
-# 🏭 Business Use Cases
+## 🏭 Business Use Cases
 
 - Real-time factory safety monitoring
 - Automated PPE compliance auditing
@@ -233,7 +233,7 @@ Real-time PPE monitoring using YOLO detection.
 
 ---
 
-#  Conclusion
+##  Conclusion
 
 IntelliGuard delivers an end-to-end AI solution for workplace safety by combining computer vision, cloud computing, and generative AI.
 
