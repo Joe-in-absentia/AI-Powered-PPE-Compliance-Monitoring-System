@@ -14,7 +14,7 @@ The system identifies safety violations from image, video, and live webcam feeds
 
 ---
 
-# 🚨 Problem Statement
+##  Problem Statement
 
 Industrial and manufacturing environments require strict safety compliance. Manual PPE inspection is time-consuming, inconsistent, and difficult to scale.
 
@@ -28,7 +28,7 @@ IntelliGuard automates workplace safety monitoring by:
 
 ---
 
-# ✨ Key Features
+## ✨ Key Features
 
 - Real-time PPE violation detection using YOLO
 - Face recognition-based secure login system
