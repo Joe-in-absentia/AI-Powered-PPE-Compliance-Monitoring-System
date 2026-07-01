@@ -203,7 +203,7 @@ Main dashboard for selecting detection modes and viewing safety analytics.
 Real-time PPE monitoring using YOLO detection.
 
 <p align="center">
-<img src="screenshots/webcam_detection.png" width="850">
+<img src="[screenshots/webcam_detection.png](https://github.com/Joe-in-absentia/AI-Powered-PPE-Compliance-Monitoring-System/blob/1ce021477a42475e4eabd87470f0f3a9b1083fc1/web%20cam.png)" width="850">
 </p>
 
 
