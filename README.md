@@ -181,7 +181,7 @@ Examples:
 Face recognition and password authentication provide secure access.
 
 <p align="center">
-<img src="[screenshots/login_page.png](https://github.com/Joe-in-absentia/AI-Powered-PPE-Compliance-Monitoring-System/blob/29c584c91412c399b229a2dca949f858c2292c69/login.png)" width="850">
+<img src="https://github.com/Joe-in-absentia/AI-Powered-PPE-Compliance-Monitoring-System/blob/29c584c91412c399b229a2dca949f858c2292c69/login.png" width="850">
 </p>
 
 
