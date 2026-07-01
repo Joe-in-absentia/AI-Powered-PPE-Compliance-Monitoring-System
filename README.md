@@ -192,7 +192,7 @@ Face recognition and password authentication provide secure access.
 Main dashboard for selecting detection modes and viewing safety analytics.
 
 <p align="center">
-<img src="[https://github.com/Joe-in-absentia/AI-Powered-PPE-Compliance-Monitoring-System/blob/2f1ff059dfd5bb644f8f2ef58049cacfe427b97a/main.png)" width="850">
+<img src="https://github.com/Joe-in-absentia/AI-Powered-PPE-Compliance-Monitoring-System/blob/dade67a0ac693688ca0fe1ea130084a3f3e75fb1/main.png" width="850">
 </p>
 
 
