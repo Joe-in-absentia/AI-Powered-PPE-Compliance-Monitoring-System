@@ -192,7 +192,7 @@ Face recognition and password authentication provide secure access.
 Main dashboard for selecting detection modes and viewing safety analytics.
 
 <p align="center">
-<img src="[screenshots/dashboard.png](https://github.com/Joe-in-absentia/AI-Powered-PPE-Compliance-Monitoring-System/blob/0c0129f3ec74f5bb35928af7f6aaad403047cd32/main.png)" width="850">
+<img src=https://github.com/Joe-in-absentia/Game-Analytics-Tennis_Data_With_SportRader_API/blob/d8d55e35aad3727d8df893ed9e24b8168fdc1a3c/details.png width="800">
 </p>
 
 
