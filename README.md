@@ -45,7 +45,7 @@ IntelliGuard automates workplace safety monitoring by:
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 ## Artificial Intelligence
 - YOLO Object Detection
@@ -104,57 +104,6 @@ IntelliGuard automates workplace safety monitoring by:
 
 ---
 
-# ⚙️ System Workflow
-
-```
-Image / Video / Webcam Input
-             |
-             ↓
-      OpenCV Processing
-             |
-             ↓
-       YOLO PPE Detection
-             |
-             ↓
-    Violation Identification
-             |
-       ----------------
-       |              |
-       ↓              ↓
- AWS RDS Storage   Dashboard Display
-       |
-       ↓
- AI Analytics Chatbot
-       |
-       ↓
- Safety Reports & Insights
-```
-
----
-
-# 🧪 Dataset
-
-## PPE Safety Dataset
-
-The model was trained using industrial worker images containing PPE and non-PPE scenarios.
-
-### Classes
-
-```
-glove
-goggles
-helmet
-mask
-no-suit
-no_glove
-no_goggles
-no_helmet
-no_mask
-no_shoes
-shoes
-suit
-```
-
 ### Dataset Details
 
 - Industrial worker safety images
@@ -181,27 +130,9 @@ Used for:
 - Recording violation details
 - Maintaining safety analytics history
 
-Architecture:
-
-```
-YOLO Model
-    |
-    ↓
-AWS S3 Bucket
-    |
-    ↓
-Streamlit Application
-    |
-    ↓
-AWS RDS PostgreSQL Database
-    |
-    ↓
-Analytics Dashboard
-```
-
 ---
 
-# 🤖 Chatbot Features
+#  Chatbot Features
 
 IntelliGuard includes an AI-powered SQL chatbot using LangChain and Gemini.
 
@@ -216,7 +147,7 @@ Example queries:
 
 ---
 
-# 📊 Evaluation Metrics
+#  Evaluation Metrics
 
 The system performance is evaluated using:
 
@@ -230,7 +161,7 @@ The system performance is evaluated using:
 
 ---
 
-# 📧 Email Alerts
+#  Email Alerts
 
 The system automatically generates email notifications when safety violations are detected.
 
@@ -243,7 +174,7 @@ Examples:
 
 ---
 
-# 📸 Application Screenshots
+#  Application Screenshots
 
 ## 🔐 Secure Login Page
 
@@ -276,90 +207,10 @@ Real-time PPE monitoring using YOLO detection.
 </p>
 
 
----
-
-## 🖼️ Image Detection
-
-PPE violations detected from uploaded images.
-
-<p align="center">
-<img src="screenshots/image_detection.png" width="850">
-</p>
-
 
 ---
 
-## 🎥 Video Detection
-
-Frame-by-frame video analysis for workplace safety monitoring.
-
-<p align="center">
-<img src="screenshots/video_detection.png" width="850">
-</p>
-
-
----
-
-## 🤖 AI Safety Chatbot
-
-Natural language chatbot for violation analytics.
-
-<p align="center">
-<img src="screenshots/chatbot.png" width="850">
-</p>
-
-
----
-
-## 📊 Automated Reports
-
-CSV reports generated from AWS RDS violation records.
-
-<p align="center">
-<img src="screenshots/report.png" width="850">
-</p>
-
----
-
-# 🚀 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/IntelliGuard.git
-
-cd IntelliGuard
-```
-
-Create virtual environment:
-
-```bash
-python -m venv .venv
-```
-
-Activate environment:
-
-Mac/Linux:
-
-```bash
-source .venv/bin/activate
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run application:
-
-```bash
-streamlit run streamlit.py
-```
-
----
-
-# 📈 Results
+#  Results
 
 - Accurate PPE violation detection using YOLO
 - Real-time workplace safety monitoring
@@ -382,7 +233,7 @@ streamlit run streamlit.py
 
 ---
 
-# 🏁 Conclusion
+#  Conclusion
 
 IntelliGuard delivers an end-to-end AI solution for workplace safety by combining computer vision, cloud computing, and generative AI.
 
